@@ -15,6 +15,7 @@ jobs:
           node-version: "22"
           cache: npm
       - run: npm ci
+      - run: node --experimental-strip-types --test scripts/edufine-workflows.test.mjs
       - run: npm run build
       - name: Verify content integrity
         run: |
