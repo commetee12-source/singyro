@@ -1,5 +1,6 @@
 import type { CategoryId, Guide, Source } from "./types";
 import { knowledgeCards } from "./knowledge-cards";
+import { verifiedGuides } from "./verified-guides";
 
 export const REVIEW_DATE = "2026-09-11";
 /** 지식창고 초안 카드 조사 기준일 */
@@ -86,7 +87,7 @@ export const sources: Record<string, Source> = {
   service: {
     title: "지방공무원 복무규정",
     url: "https://www.law.go.kr/법령/지방공무원복무규정",
-    note: "검색 확인: 2026. 6. 23. 시행본. 개별 휴가의 일수·요건은 원문 확인이 필요합니다.",
+    note: "2026-11-05 현행 원문·연혁 확인: 2026.10.2. 시행본. 개별 휴가의 일수·요건과 기관 절차를 재확인하세요.",
   },
   seoul: {
     title: "서울특별시교육감 소속 지방공무원 복무 조례",
@@ -96,7 +97,7 @@ export const sources: Record<string, Source> = {
   budget: {
     title: "2026학년도 학교회계 예산편성 기본지침",
     url: "https://buseo.sen.go.kr/buseo/bu05/user/bbs/BD_selectBbs.do?q_bbsDocNo=20251128090916299&q_bbsSn=1199",
-    note: "서울특별시교육청 예산담당관 게시물. 수정본과 주요 변경사항이 함께 제공됩니다. 게시물 존재 확인, 첨부 본문 미검토.",
+    note: "2026-11-05 공식 수정 PDF의 해당 절(23~28, 33~39, 45, 79쪽)을 직접 확인. 지침 전체·후속 공문을 모두 검토한 것은 아닙니다.",
   },
   budgetOffice: {
     title: "서울특별시교육청 예산담당관",
@@ -550,7 +551,14 @@ const baseGuides: Guide[] = [
 ];
 
 /** 손으로 쓴 길잡이 24개 + 지식창고 초안 카드 84장. 기존 ID 순서를 유지해야 저장 상태가 이어진다. */
-export const guides: Guide[] = [...baseGuides, ...knowledgeCards];
+// 기존 ID를 유지해 즐겨찾기·공유링크를 보존한다. 검증 보완본만 선택적으로 교체.
+const verifiedById = new Map(verifiedGuides.map((item) => [item.id, item]));
+const originalGuides = [...baseGuides, ...knowledgeCards];
+const originalIds = new Set(originalGuides.map((item) => item.id));
+export const guides: Guide[] = [
+  ...originalGuides.map((item) => verifiedById.get(item.id) ?? item),
+  ...verifiedGuides.filter((item) => !originalIds.has(item.id)),
+];
 export const checklist = [
   {
     id: "day",
