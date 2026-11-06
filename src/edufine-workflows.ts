@@ -157,6 +157,15 @@ function parseScene(
   };
 }
 
+// 2026-11-05: 공개 expense 카탈로그에 수입용 분류명 24건이 혼입됨.
+// 제목·이미지·단계·ID는 보존하고, 확인되지 않은 실제 장 이름을 추정하지 않는다.
+export function workflowCategory(value: unknown, system: WorkflowSystemId): string {
+  const category = text(value);
+  if (system === "expense" && ["IV. 징수결의", "V. 수납 및 출납관리"].includes(category))
+    return "지출 업무 · 원문 분류 확인 필요";
+  return category || "기타";
+}
+
 export function parseWorkflowCatalog(
   value: unknown,
   system: WorkflowSystemId,
@@ -187,7 +196,7 @@ export function parseWorkflowCatalog(
     clips.push({
       id: clip.clip_id,
       title: text(clip.title),
-      category: text(clip.category) || "기타",
+      category: workflowCategory(clip.category, system),
       scenes,
     });
   }

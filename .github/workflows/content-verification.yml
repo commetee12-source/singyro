@@ -1,0 +1,32 @@
+name: Content verification
+on:
+  pull_request:
+  push:
+    branches: ["content/verified-2026-11-05"]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: node --experimental-strip-types --test scripts/edufine-workflows.test.mjs
+      - run: npm run build
+      - name: Verify content integrity
+        run: |
+          node --input-type=module -e "import fs from 'node:fs'; const m=JSON.parse(fs.readFileSync('public/manuals.json','utf8')); if(m.length!==100||new Set(m.map(x=>x.id)).size!==100) throw new Error('Manual count or duplicate IDs'); for(const x of m) if(!x.url.startsWith('https://')) throw new Error(x.id); console.log('100 manuals verified');"
+      - name: Preserve deploy files including functions
+        run: |
+          mkdir -p deploy-package/netlify
+          cp -a dist deploy-package/
+          cp -a netlify/functions deploy-package/netlify/
+          cp netlify.toml deploy-package/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: singyro-verified-deploy
+          path: deploy-package/

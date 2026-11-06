@@ -183,6 +183,14 @@ def main() -> None:
     resources = build_resources(sheet_rows(wb, "자료목록"))
     laws = build_laws(sheet_rows(wb, "법령근거"))
     items = base + docs + resources + laws
+    # 검증 보완은 조사표 재생성 후 적용한다. 기존 항목 ID·등록일은 보존.
+    override_path = ROOT / "docs" / "manual-overrides-2026-11-05.json"
+    if override_path.exists():
+        patch = json.loads(override_path.read_text(encoding="utf-8"))
+        update_map = {m["id"]: m for m in patch["updates"]}
+        items = [{**m, **update_map.get(m["id"], {})} for m in items]
+        present = {m["id"] for m in items}
+        items += [m for m in patch["additions"] if m["id"] not in present]
     ids = [m["id"] for m in items]
     if len(ids) != len(set(ids)):
         sys.exit("id 중복")

@@ -3,7 +3,7 @@
     "id": "official-budget-2026",
     "title": "2026학년도 학교회계 예산편성 기본지침",
     "category": "budget",
-    "description": "예산담당관 공식 게시물에서 수정본과 주요 변경사항을 확인하세요. 첨부 본문은 아직 검토하지 않았습니다.",
+    "description": "2026-11-05 공식 수정 PDF 23~28, 33~39, 45, 79쪽 본문 확인. 예산집행·정산·이용전용·결산 관련 절을 읽음. 지침 전체·후속 공문 및 시스템 화면은 미검토.",
     "publisher": "서울특별시교육청 예산담당관",
     "year": "2026",
     "addedAt": "2026-09-11",
@@ -13,21 +13,21 @@
     "id": "official-service-seoul",
     "title": "서울특별시교육감 소속 지방공무원 복무 조례",
     "category": "service",
-    "description": "2026. 1. 8. 시행본 확인. 원문에서 현재 시행일과 이후 개정 여부를 확인하세요.",
+    "description": "2026-11-05 현행 본문·연혁 확인: 2026.1.8. 시행 조례 제9903호. 제14조·제14조의2 등 확인. 운영지침의 분할·증빙 절차는 별도 확인.",
     "publisher": "국가법령정보센터",
     "year": "2026",
     "addedAt": "2026-09-11",
-    "url": "https://www.law.go.kr/자치법규/서울특별시교육감소속지방공무원복무조례"
+    "url": "https://www.law.go.kr/LSW//ordinInfoP.do?chrClsCd=010202&gubun=&ordinSeq=2099809"
   },
   {
     "id": "official-service-rule",
     "title": "지방공무원 복무규정",
     "category": "service",
-    "description": "2026. 6. 23. 시행본 검색 확인. 근무·휴가의 상세 요건은 원문을 확인하세요.",
+    "description": "2026-11-05 현행 본문·연혁 확인: 2026.10.2. 시행 대통령령 제36728호. 제6조 및 제7조 관련 연가·병가·공가·특별휴가·휴일 산입 확인. 기관 증빙·메뉴 별도 확인.",
     "publisher": "국가법령정보센터",
     "year": "2026",
     "addedAt": "2026-09-11",
-    "url": "https://www.law.go.kr/법령/지방공무원복무규정"
+    "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290493#0000"
   },
   {
     "id": "official-law",
@@ -65,7 +65,7 @@
     "id": "doc-privacy-breach-2024",
     "title": "서울특별시교육청 개인정보 유출사고 대응 매뉴얼(2024.08. 개정전문)",
     "category": "documents",
-    "description": "학생·학부모·교직원 개인정보 유출 초동대응 절차. 사고 연락망·보고기한·담당부서는 최신 내부계획으로 재확인.",
+    "description": "2024년 서울교육 매뉴얼은 내부 절차 참고용. 2026.9.11. 법·시행령 변경 전 자료이므로 통지사항·신고기준·가능성 통지는 최신 원문과 대조. 해당 첨부 전문 미검토, 연락망은 현재 내부계획 확인.",
     "publisher": "서울특별시교육청(교육행정지원시스템 게시)",
     "year": "2024",
     "url": "https://baro.sen.go.kr/fus/MI000000000000000022/board/BO00000004/CD100102/view0010v.do?board_seq=106083",
@@ -142,33 +142,33 @@
     "id": "res-s09",
     "title": "지방계약법 시행령 수의계약 등 한시적 특례 적용기간 종료 안내",
     "category": "contract",
-    "description": "우선순위 P0 · 구형 계약 카드의 금액·기간 조건 갱신 · 찾는 경로: 공지사항에서 제목 및 2026-07-01 검색 · 종료 안내 존재 확인. 이후 재연장·개정과 계약 기준일을 별도로 대조해야 함. · 확인 수준: 공식 목록 검색 확인",
+    "description": "공문·고시 원문 확인: 해당 특례는 2026.6.30. 종료, 7.1. 이후 일반 규정 적용. 확인일 2026-11-05. 계약 처리 시 신규 고시 재확인.",
     "publisher": "행정안전부 / 서울특별시교육청 계약길잡이",
     "year": "2026 공지",
     "addedAt": "2026-09-15",
-    "url": "https://contract.sen.go.kr/",
+    "url": "https://contract.sen.go.kr/fus/MI000000000000000104/board/BO00000061/ctgynone/view0010v.do?board_seq=821",
     "kind": "resource"
   },
   {
     "id": "res-s10",
     "title": "서울특별시교육청 물품선정위원회 운영 규정 개정 알림",
     "category": "contract",
-    "description": "우선순위 P0 · 선정위원회 구성·심의·기록 카드 소재 · 찾는 경로: 공지사항 > 물품선정위원회 운영 규정 · 구체적 대상·금액·위원 구성은 개정 첨부 원문 확인 전 확정 금지. · 확인 수준: 공식 목록 검색 확인",
+    "description": "공식 본문·첨부 전문·서식·신구대조표 확인. 2026.9.1. 이후 구매계획 수립(품의) 사업에 적용. 확인일 2026-11-05. 개정 전 7인 이상·개최 권장 기준 사용 금지.",
     "publisher": "서울특별시교육청",
     "year": "2026 개정 알림",
     "addedAt": "2026-09-15",
-    "url": "https://contract.sen.go.kr/",
+    "url": "https://contract.sen.go.kr/fus/MI000000000000000104/board/BO00000061/ctgynone/view0010v.do?board_seq=822",
     "kind": "resource"
   },
   {
     "id": "res-s11",
     "title": "서울특별시교육청 수의계약 통합서약서(서식) 안내",
     "category": "contract",
-    "description": "우선순위 P0 · 수의계약 서류 체크리스트의 최신 양식 후보 · 찾는 경로: 공지사항 > 수의계약 통합서약서 · 최신 별지와 계약 유형별 적용을 확인. 옛 개별 서약서와 중복 요구 주의. · 확인 수준: 공식 목록 검색 확인",
+    "description": "공식 첨부 전문·붙임1 확인. 2025.11. 이후 체결 예정 수의계약 적용. 소관 매뉴얼 개정 전 기존 서약서 병행 안내 있음. 확인일 2026-11-05. 위원용 청렴·보안 서약서와 구분.",
     "publisher": "서울특별시교육청",
     "year": "2025 게시본",
     "addedAt": "2026-09-15",
-    "url": "https://contract.sen.go.kr/",
+    "url": "https://contract.sen.go.kr/fus/MI000000000000000104/board/BO00000061/ctgynone/view0010v.do?board_seq=801",
     "kind": "resource"
   },
   {
@@ -813,22 +813,22 @@
     "id": "law-l15",
     "title": "공공기관의 정보공개에 관한 법률",
     "category": "documents",
-    "description": "공개청구 처리 근거 · 개인정보가 있다는 이유만으로 전체 비공개를 단정하지 않도록 사례 검토. · 확인 수준: 법령 연결 확인·현행 조문 미대조",
+    "description": "2026-11-05 원문 제9·11·13·14·21·29조 확인. 공개·부분공개, 결정기한·기간계산, 제3자 절차 확인. 기관 비공개 세부기준 별도 확인.",
     "publisher": "국가법령정보센터",
     "year": "현행",
     "addedAt": "2026-09-15",
-    "url": "https://www.law.go.kr/법령/공공기관의정보공개에관한법률",
+    "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=251019",
     "kind": "law"
   },
   {
     "id": "law-l16",
     "title": "개인정보 보호법",
     "category": "documents",
-    "description": "학생·학부모·교직원 정보 보호 · 학생 자료를 시청 민원 예시로 대체하지 않음. 최신 업무 지침 확인. · 확인 수준: 법령 연결 확인·현행 조문 미대조",
+    "description": "2026-11-05, 2026.9.11. 시행 원문 제15~18·23·24·24의2·29·34조 등 확인. 최신 통지사항의 법적 권리·행사방법과 유출 가능성 통지 신설 반영.",
     "publisher": "국가법령정보센터",
     "year": "현행",
     "addedAt": "2026-09-15",
-    "url": "https://www.law.go.kr/법령/개인정보보호법",
+    "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20260911&lsiSeq=283839&urlMode=lsInfoR",
     "kind": "law"
   },
   {
@@ -1061,5 +1061,38 @@
     "addedAt": "2026-09-15",
     "url": "https://www.law.go.kr/행정규칙/지방자치단체교육비특별회계세출예산집행기준",
     "kind": "law"
+  },
+  {
+    "id": "verified-contract-single-quote-202611",
+    "title": "교육행정기관 1인견적 체결제한 기준 안내",
+    "category": "contract",
+    "description": "2026.11.4. 게시 공식 첨부 확인. 11.6. 시행 예정 집행기준 개정과 교육청 자체지침 적용 안내. 자체 제한 횟수·금액 전문 미확보. 확인일 2026-11-05; 실제 계약 전 재검증.",
+    "publisher": "서울특별시교육청 계약길잡이 / 교육부",
+    "year": "2026-11",
+    "addedAt": "2026-11-05",
+    "url": "https://contract.sen.go.kr/fus/MI000000000000000104/board/BO00000061/ctgynone/view0010v.do?board_seq=885",
+    "kind": "resource"
+  },
+  {
+    "id": "verified-privacy-decree-202609",
+    "title": "개인정보 보호법 시행령",
+    "category": "documents",
+    "description": "2026-11-05 제39·39의2·39의3·40조 현행 원문 확인. 법정 통지와 신고, 예외·가능성 통지 요건 구분.",
+    "publisher": "국가법령정보센터",
+    "year": "2026",
+    "addedAt": "2026-11-05",
+    "url": "https://www.law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260911&lsiSeq=289537",
+    "kind": "law"
+  },
+  {
+    "id": "verified-pipc-breach",
+    "title": "개인정보보호위원회 개인정보 유출신고 안내",
+    "category": "documents",
+    "description": "2026-11-05 공식 신고기준·신고 경로 확인. 2026.9. 안내서 첨부 전체는 미검토.",
+    "publisher": "개인정보보호위원회",
+    "year": "현재 안내",
+    "addedAt": "2026-11-05",
+    "url": "https://www.pipc.go.kr/np/default/page.do?mCode=D030040000",
+    "kind": "resource"
   }
 ]

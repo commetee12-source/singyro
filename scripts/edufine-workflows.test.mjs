@@ -407,3 +407,23 @@ test("수입·지출 상세 주소는 각 목록으로 분류하고 접속 안�
   ])
     assert.equal(workflowSystemForActivity(activity), null);
 });
+
+
+test("지출 원격 카탈로그의 수입용 분류명만 중립 경고로 보정한다", () => {
+  for (const category of ["IV. 징수결의", "V. 수납 및 출납관리"]) {
+    const [parsed] = parseExpenseCatalog({ manual_id: "expense", clips: [{ ...clip, category }] });
+    assert.equal(parsed.category, "지출 업무 · 원문 분류 확인 필요");
+    assert.equal(parsed.id, clip.clip_id);
+    assert.equal(parsed.title, clip.title);
+    assert.equal(parsed.scenes[0].image, expenseImageUrl(scene.image));
+    assert.deepEqual(workflowSteps(parsed).map(x => x.step.number), [4, 8]);
+  }
+  assert.equal(parseExpenseCatalog({manual_id:"expense",clips:[clip]})[0].category, clip.category);
+});
+
+test("같은 분류명이 정당한 수입 카탈로그에서는 원문 그대로 유지한다", () => {
+  for (const category of ["IV. 징수결의", "V. 수납 및 출납관리"]) {
+    const [parsed] = parseWorkflowCatalog({manual_id:"income",clips:[{...incomeClip,category}]}, "income");
+    assert.equal(parsed.category, category);
+  }
+});

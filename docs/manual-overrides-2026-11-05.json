@@ -1,0 +1,82 @@
+{
+  "updates": [
+    {
+      "id": "official-budget-2026",
+      "description": "2026-11-05 공식 수정 PDF 23~28, 33~39, 45, 79쪽 본문 확인. 예산집행·정산·이용전용·결산 관련 절을 읽음. 지침 전체·후속 공문 및 시스템 화면은 미검토."
+    },
+    {
+      "id": "official-service-rule",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290493#0000",
+      "description": "2026-11-05 현행 본문·연혁 확인: 2026.10.2. 시행 대통령령 제36728호. 제6조 및 제7조 관련 연가·병가·공가·특별휴가·휴일 산입 확인. 기관 증빙·메뉴 별도 확인."
+    },
+    {
+      "id": "official-service-seoul",
+      "url": "https://www.law.go.kr/LSW//ordinInfoP.do?chrClsCd=010202&gubun=&ordinSeq=2099809",
+      "description": "2026-11-05 현행 본문·연혁 확인: 2026.1.8. 시행 조례 제9903호. 제14조·제14조의2 등 확인. 운영지침의 분할·증빙 절차는 별도 확인."
+    },
+    {
+      "id": "res-s09",
+      "url": "https://contract.sen.go.kr/fus/MI000000000000000104/board/BO00000061/ctgynone/view0010v.do?board_seq=821",
+      "description": "공문·고시 원문 확인: 해당 특례는 2026.6.30. 종료, 7.1. 이후 일반 규정 적용. 확인일 2026-11-05. 계약 처리 시 신규 고시 재확인."
+    },
+    {
+      "id": "res-s10",
+      "url": "https://contract.sen.go.kr/fus/MI000000000000000104/board/BO00000061/ctgynone/view0010v.do?board_seq=822",
+      "description": "공식 본문·첨부 전문·서식·신구대조표 확인. 2026.9.1. 이후 구매계획 수립(품의) 사업에 적용. 확인일 2026-11-05. 개정 전 7인 이상·개최 권장 기준 사용 금지."
+    },
+    {
+      "id": "res-s11",
+      "url": "https://contract.sen.go.kr/fus/MI000000000000000104/board/BO00000061/ctgynone/view0010v.do?board_seq=801",
+      "description": "공식 첨부 전문·붙임1 확인. 2025.11. 이후 체결 예정 수의계약 적용. 소관 매뉴얼 개정 전 기존 서약서 병행 안내 있음. 확인일 2026-11-05. 위원용 청렴·보안 서약서와 구분."
+    },
+    {
+      "id": "law-l15",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=251019",
+      "description": "2026-11-05 원문 제9·11·13·14·21·29조 확인. 공개·부분공개, 결정기한·기간계산, 제3자 절차 확인. 기관 비공개 세부기준 별도 확인."
+    },
+    {
+      "id": "law-l16",
+      "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20260911&lsiSeq=283839&urlMode=lsInfoR",
+      "description": "2026-11-05, 2026.9.11. 시행 원문 제15~18·23·24·24의2·29·34조 등 확인. 최신 통지사항의 법적 권리·행사방법과 유출 가능성 통지 신설 반영."
+    },
+    {
+      "id": "doc-privacy-breach-2024",
+      "description": "2024년 서울교육 매뉴얼은 내부 절차 참고용. 2026.9.11. 법·시행령 변경 전 자료이므로 통지사항·신고기준·가능성 통지는 최신 원문과 대조. 해당 첨부 전문 미검토, 연락망은 현재 내부계획 확인."
+    }
+  ],
+  "additions": [
+    {
+      "id": "verified-contract-single-quote-202611",
+      "title": "교육행정기관 1인견적 체결제한 기준 안내",
+      "category": "contract",
+      "description": "2026.11.4. 게시 공식 첨부 확인. 11.6. 시행 예정 집행기준 개정과 교육청 자체지침 적용 안내. 자체 제한 횟수·금액 전문 미확보. 확인일 2026-11-05; 실제 계약 전 재검증.",
+      "publisher": "서울특별시교육청 계약길잡이 / 교육부",
+      "year": "2026-11",
+      "addedAt": "2026-11-05",
+      "url": "https://contract.sen.go.kr/fus/MI000000000000000104/board/BO00000061/ctgynone/view0010v.do?board_seq=885",
+      "kind": "resource"
+    },
+    {
+      "id": "verified-privacy-decree-202609",
+      "title": "개인정보 보호법 시행령",
+      "category": "documents",
+      "description": "2026-11-05 제39·39의2·39의3·40조 현행 원문 확인. 법정 통지와 신고, 예외·가능성 통지 요건 구분.",
+      "publisher": "국가법령정보센터",
+      "year": "2026",
+      "addedAt": "2026-11-05",
+      "url": "https://www.law.go.kr/LSW/lsInfoR.do?chrClsCd=010202&efYd=20260911&lsiSeq=289537",
+      "kind": "law"
+    },
+    {
+      "id": "verified-pipc-breach",
+      "title": "개인정보보호위원회 개인정보 유출신고 안내",
+      "category": "documents",
+      "description": "2026-11-05 공식 신고기준·신고 경로 확인. 2026.9. 안내서 첨부 전체는 미검토.",
+      "publisher": "개인정보보호위원회",
+      "year": "현재 안내",
+      "addedAt": "2026-11-05",
+      "url": "https://www.pipc.go.kr/np/default/page.do?mCode=D030040000",
+      "kind": "resource"
+    }
+  ]
+}
